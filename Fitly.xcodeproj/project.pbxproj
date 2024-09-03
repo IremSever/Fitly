@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78D2C86EF45008CD847 /* FitlyApp.swift */; };
+		61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78F2C86EF45008CD847 /* ContentView.swift */; };
+		61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B9C7912C86EF47008CD847 /* Assets.xcassets */; };
+		61B9C7952C86EF47008CD847 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B9C7942C86EF47008CD847 /* Preview Assets.xcassets */; };
+		61B9C79F2C86EF48008CD847 /* FitlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C79E2C86EF48008CD847 /* FitlyTests.swift */; };
+		61B9C7A92C86EF48008CD847 /* FitlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */; };
+		61B9C7AB2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B9C79B2C86EF48008CD847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B9C7822C86EF45008CD847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B9C7892C86EF45008CD847;
+			remoteInfo = Fitly;
+		};
+		61B9C7A52C86EF48008CD847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B9C7822C86EF45008CD847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B9C7892C86EF45008CD847;
+			remoteInfo = Fitly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61B9C78A2C86EF45008CD847 /* Fitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B9C78D2C86EF45008CD847 /* FitlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyApp.swift; sourceTree = "<group>"; };
+		61B9C78F2C86EF45008CD847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61B9C7912C86EF47008CD847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61B9C7942C86EF47008CD847 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61B9C79A2C86EF48008CD847 /* FitlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B9C79E2C86EF48008CD847 /* FitlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyTests.swift; sourceTree = "<group>"; };
+		61B9C7A42C86EF48008CD847 /* FitlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITests.swift; sourceTree = "<group>"; };
+		61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B9C7872C86EF45008CD847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B9C7972C86EF48008CD847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B9C7A12C86EF48008CD847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B9C7812C86EF45008CD847 = {
+			isa = PBXGroup;
+			children = (
+				61B9C78C2C86EF45008CD847 /* Fitly */,
+				61B9C79D2C86EF48008CD847 /* FitlyTests */,
+				61B9C7A72C86EF48008CD847 /* FitlyUITests */,
+				61B9C78B2C86EF45008CD847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B9C78B2C86EF45008CD847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B9C78A2C86EF45008CD847 /* Fitly.app */,
+				61B9C79A2C86EF48008CD847 /* FitlyTests.xctest */,
+				61B9C7A42C86EF48008CD847 /* FitlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B9C78C2C86EF45008CD847 /* Fitly */ = {
+			isa = PBXGroup;
+			children = (
+				61B9C78D2C86EF45008CD847 /* FitlyApp.swift */,
+				61B9C78F2C86EF45008CD847 /* ContentView.swift */,
+				61B9C7912C86EF47008CD847 /* Assets.xcassets */,
+				61B9C7932C86EF47008CD847 /* Preview Content */,
+			);
+			path = Fitly;
+			sourceTree = "<group>";
+		};
+		61B9C7932C86EF47008CD847 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61B9C7942C86EF47008CD847 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61B9C79D2C86EF48008CD847 /* FitlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				61B9C79E2C86EF48008CD847 /* FitlyTests.swift */,
+			);
+			path = FitlyTests;
+			sourceTree = "<group>";
+		};
+		61B9C7A72C86EF48008CD847 /* FitlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */,
+				61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */,
+			);
+			path = FitlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B9C7892C86EF45008CD847 /* Fitly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B9C7AE2C86EF48008CD847 /* Build configuration list for PBXNativeTarget "Fitly" */;
+			buildPhases = (
+				61B9C7862C86EF45008CD847 /* Sources */,
+				61B9C7872C86EF45008CD847 /* Frameworks */,
+				61B9C7882C86EF45008CD847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitly;
+			productName = Fitly;
+			productReference = 61B9C78A2C86EF45008CD847 /* Fitly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B9C7992C86EF48008CD847 /* FitlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B9C7B12C86EF48008CD847 /* Build configuration list for PBXNativeTarget "FitlyTests" */;
+			buildPhases = (
+				61B9C7962C86EF48008CD847 /* Sources */,
+				61B9C7972C86EF48008CD847 /* Frameworks */,
+				61B9C7982C86EF48008CD847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B9C79C2C86EF48008CD847 /* PBXTargetDependency */,
+			);
+			name = FitlyTests;
+			productName = FitlyTests;
+			productReference = 61B9C79A2C86EF48008CD847 /* FitlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61B9C7A32C86EF48008CD847 /* FitlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B9C7B42C86EF48008CD847 /* Build configuration list for PBXNativeTarget "FitlyUITests" */;
+			buildPhases = (
+				61B9C7A02C86EF48008CD847 /* Sources */,
+				61B9C7A12C86EF48008CD847 /* Frameworks */,
+				61B9C7A22C86EF48008CD847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B9C7A62C86EF48008CD847 /* PBXTargetDependency */,
+			);
+			name = FitlyUITests;
+			productName = FitlyUITests;
+			productReference = 61B9C7A42C86EF48008CD847 /* FitlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B9C7822C86EF45008CD847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					61B9C7892C86EF45008CD847 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					61B9C7992C86EF48008CD847 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 61B9C7892C86EF45008CD847;
+					};
+					61B9C7A32C86EF48008CD847 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 61B9C7892C86EF45008CD847;
+					};
+				};
+			};
+			buildConfigurationList = 61B9C7852C86EF45008CD847 /* Build configuration list for PBXProject "Fitly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B9C7812C86EF45008CD847;
+			productRefGroup = 61B9C78B2C86EF45008CD847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B9C7892C86EF45008CD847 /* Fitly */,
+				61B9C7992C86EF48008CD847 /* FitlyTests */,
+				61B9C7A32C86EF48008CD847 /* FitlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B9C7882C86EF45008CD847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B9C7952C86EF47008CD847 /* Preview Assets.xcassets in Resources */,
+				61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B9C7982C86EF48008CD847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B9C7A22C86EF48008CD847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B9C7862C86EF45008CD847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
+				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B9C7962C86EF48008CD847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B9C79F2C86EF48008CD847 /* FitlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B9C7A02C86EF48008CD847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B9C7A92C86EF48008CD847 /* FitlyUITests.swift in Sources */,
+				61B9C7AB2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B9C79C2C86EF48008CD847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B9C7892C86EF45008CD847 /* Fitly */;
+			targetProxy = 61B9C79B2C86EF48008CD847 /* PBXContainerItemProxy */;
+		};
+		61B9C7A62C86EF48008CD847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B9C7892C86EF45008CD847 /* Fitly */;
+			targetProxy = 61B9C7A52C86EF48008CD847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61B9C7AC2C86EF48008CD847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61B9C7AD2C86EF48008CD847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B9C7AF2C86EF48008CD847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitly/Preview Content\"";
+				DEVELOPMENT_TEAM = 4866964873;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IremSever.Fitly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61B9C7B02C86EF48008CD847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitly/Preview Content\"";
+				DEVELOPMENT_TEAM = 4866964873;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IremSever.Fitly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61B9C7B22C86EF48008CD847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4866964873;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IremSever.FitlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitly";
+			};
+			name = Debug;
+		};
+		61B9C7B32C86EF48008CD847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4866964873;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IremSever.FitlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitly";
+			};
+			name = Release;
+		};
+		61B9C7B52C86EF48008CD847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4866964873;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IremSever.FitlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitly;
+			};
+			name = Debug;
+		};
+		61B9C7B62C86EF48008CD847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4866964873;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IremSever.FitlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B9C7852C86EF45008CD847 /* Build configuration list for PBXProject "Fitly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B9C7AC2C86EF48008CD847 /* Debug */,
+				61B9C7AD2C86EF48008CD847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B9C7AE2C86EF48008CD847 /* Build configuration list for PBXNativeTarget "Fitly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B9C7AF2C86EF48008CD847 /* Debug */,
+				61B9C7B02C86EF48008CD847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B9C7B12C86EF48008CD847 /* Build configuration list for PBXNativeTarget "FitlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B9C7B22C86EF48008CD847 /* Debug */,
+				61B9C7B32C86EF48008CD847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B9C7B42C86EF48008CD847 /* Build configuration list for PBXNativeTarget "FitlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B9C7B52C86EF48008CD847 /* Debug */,
+				61B9C7B62C86EF48008CD847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B9C7822C86EF45008CD847 /* Project object */;
+}
