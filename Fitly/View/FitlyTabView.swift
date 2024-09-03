@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct FitlyTabView: View {
+    @State var selectedTab = "Home"
+    
+    init() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.stackedLayoutAppearance.selected.iconColor = .purple
+        appearance.stackedLayoutAppearance.selected.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.purple]
+        UITabBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selectedTab) { 
+            HomeView()
+                .tag("Home")
+                .tabItem {
+                    Image(systemName: "house")
+                }
+            
+//            HistoricDataView()
+//                .tag("HistoricDataView")
+//                .tabItem {
+//                    Image(systemName: "chart.line.uptrend.xyaxis")
+//                }
+            
+            
+        }
     }
 }
 
