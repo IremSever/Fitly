@@ -26,11 +26,11 @@ struct FitlyTabView: View {
                     Image(systemName: "house")
                 }
             
-//            HistoricDataView()
-//                .tag("HistoricDataView")
-//                .tabItem {
-//                    Image(systemName: "chart.line.uptrend.xyaxis")
-//                }
+            HistoricDataView()
+                .tag("HistoricDataView")
+                .tabItem {
+                    Image(systemName: "chart.line.uptrend.xyaxis")
+                }
             
             
         }
