@@ -14,6 +14,8 @@
 		61B9C79F2C86EF48008CD847 /* FitlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C79E2C86EF48008CD847 /* FitlyTests.swift */; };
 		61B9C7A92C86EF48008CD847 /* FitlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */; };
 		61B9C7AB2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */; };
+		662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623669F2C872AF900C79B60 /* FitlyModel.swift */; };
+		662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366A12C872B0A00C79B60 /* FitlyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		61B9C7A42C86EF48008CD847 /* FitlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITests.swift; sourceTree = "<group>"; };
 		61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6623669F2C872AF900C79B60 /* FitlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyModel.swift; sourceTree = "<group>"; };
+		662366A12C872B0A00C79B60 /* FitlyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,10 @@
 		61B9C78C2C86EF45008CD847 /* Fitly */ = {
 			isa = PBXGroup;
 			children = (
+				6623669E2C872AB500C79B60 /* JSON */,
+				6623669D2C872AA400C79B60 /* View */,
+				6623669C2C872A9D00C79B60 /* ViewModel */,
+				6623669B2C872A9300C79B60 /* Model */,
 				61B9C78D2C86EF45008CD847 /* FitlyApp.swift */,
 				61B9C78F2C86EF45008CD847 /* ContentView.swift */,
 				61B9C7912C86EF47008CD847 /* Assets.xcassets */,
@@ -125,6 +133,36 @@
 				61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */,
 			);
 			path = FitlyUITests;
+			sourceTree = "<group>";
+		};
+		6623669B2C872A9300C79B60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6623669F2C872AF900C79B60 /* FitlyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6623669C2C872A9D00C79B60 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				662366A12C872B0A00C79B60 /* FitlyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6623669D2C872AA400C79B60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6623669E2C872AB500C79B60 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +297,8 @@
 			files = (
 				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
 				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
+				662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */,
+				662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
