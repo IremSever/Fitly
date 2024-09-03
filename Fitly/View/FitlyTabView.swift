@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  FitlyTabView.swift
 //  Fitly
 //
 //  Created by IREM SEVER on 3.09.2024.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct FitlyTabView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    HomeView()
+    FitlyTabView()
 }

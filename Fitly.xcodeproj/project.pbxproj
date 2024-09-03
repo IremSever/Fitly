@@ -16,8 +16,8 @@
 		61B9C7AB2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */; };
 		662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623669F2C872AF900C79B60 /* FitlyModel.swift */; };
 		662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366A12C872B0A00C79B60 /* FitlyViewModel.swift */; };
-		662366A42C872CE000C79B60 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366A32C872CE000C79B60 /* TabView.swift */; };
-		662366A62C872DA500C79B60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366A52C872DA500C79B60 /* HomeView.swift */; };
+		662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366AE2C87325300C79B60 /* FitlyTabView.swift */; };
+		662366B12C87327300C79B60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366B02C87327300C79B60 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6623669F2C872AF900C79B60 /* FitlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyModel.swift; sourceTree = "<group>"; };
 		662366A12C872B0A00C79B60 /* FitlyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyViewModel.swift; sourceTree = "<group>"; };
-		662366A32C872CE000C79B60 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
-		662366A52C872DA500C79B60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		662366AE2C87325300C79B60 /* FitlyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyTabView.swift; sourceTree = "<group>"; };
+		662366B02C87327300C79B60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +158,8 @@
 		6623669D2C872AA400C79B60 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				662366AE2C87325300C79B60 /* FitlyTabView.swift */,
 				662366A72C872DAE00C79B60 /* Screen */,
-				662366A32C872CE000C79B60 /* TabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 		662366A72C872DAE00C79B60 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				662366A52C872DA500C79B60 /* HomeView.swift */,
+				662366B02C87327300C79B60 /* HomeView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -309,10 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662366A42C872CE000C79B60 /* TabView.swift in Sources */,
 				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
 				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
-				662366A62C872DA500C79B60 /* HomeView.swift in Sources */,
+				662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */,
+				662366B12C87327300C79B60 /* HomeView.swift in Sources */,
 				662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */,
 				662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */,
 			);
