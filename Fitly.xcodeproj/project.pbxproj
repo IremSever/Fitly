@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61B3808B2C87426F00FB23A9 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3808A2C87426F00FB23A9 /* CircleProgressView.swift */; };
+		613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B12C88806000D554D5 /* CircleProgressView.swift */; };
+		613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B32C8880C900D554D5 /* ActivityCard.swift */; };
 		61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78D2C86EF45008CD847 /* FitlyApp.swift */; };
 		61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78F2C86EF45008CD847 /* ContentView.swift */; };
 		61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B9C7912C86EF47008CD847 /* Assets.xcassets */; };
@@ -40,7 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61B3808A2C87426F00FB23A9 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		613F16B12C88806000D554D5 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		613F16B32C8880C900D554D5 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		61B9C78A2C86EF45008CD847 /* Fitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B9C78D2C86EF45008CD847 /* FitlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyApp.swift; sourceTree = "<group>"; };
 		61B9C78F2C86EF45008CD847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		613F16B02C88802B00D554D5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				613F16B12C88806000D554D5 /* CircleProgressView.swift */,
+				613F16B32C8880C900D554D5 /* ActivityCard.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		61B9C7812C86EF45008CD847 = {
 			isa = PBXGroup;
 			children = (
@@ -161,9 +172,9 @@
 		6623669D2C872AA400C79B60 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				613F16B02C88802B00D554D5 /* Module */,
 				662366AE2C87325300C79B60 /* FitlyTabView.swift */,
 				662366A72C872DAE00C79B60 /* Screen */,
-				61B3808A2C87426F00FB23A9 /* CircleProgressView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -309,10 +320,11 @@
 			files = (
 				61B9C7B82C873432008CD847 /* HistoricDataView.swift in Sources */,
 				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
+				613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */,
 				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
 				662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */,
 				662366B12C87327300C79B60 /* HomeView.swift in Sources */,
-				61B3808B2C87426F00FB23A9 /* CircleProgressView.swift in Sources */,
+				613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */,
 				662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */,
 				662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */,
 			);
