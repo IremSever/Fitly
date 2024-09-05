@@ -11,7 +11,7 @@ import SwiftUI
 struct FitlyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FitlyTabView()
         }
     }
 }

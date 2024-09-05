@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B12C88806000D554D5 /* CircleProgressView.swift */; };
 		613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B32C8880C900D554D5 /* ActivityCard.swift */; };
+		613F16B62C88982200D554D5 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B52C88982200D554D5 /* WorkoutCard.swift */; };
 		61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78D2C86EF45008CD847 /* FitlyApp.swift */; };
 		61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78F2C86EF45008CD847 /* ContentView.swift */; };
 		61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B9C7912C86EF47008CD847 /* Assets.xcassets */; };
@@ -17,8 +18,9 @@
 		61B9C7A92C86EF48008CD847 /* FitlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */; };
 		61B9C7AB2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */; };
 		61B9C7B82C873432008CD847 /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7B72C873431008CD847 /* HistoricDataView.swift */; };
-		662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623669F2C872AF900C79B60 /* FitlyModel.swift */; };
-		662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366A12C872B0A00C79B60 /* FitlyViewModel.swift */; };
+		61C64B5A2C88F2C2000E41B5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C64B592C88F2C2000E41B5 /* HomeViewModel.swift */; };
+		61C64B652C88F53F000E41B5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C64B642C88F53F000E41B5 /* Activity.swift */; };
+		61C64B672C88F556000E41B5 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C64B662C88F556000E41B5 /* Workout.swift */; };
 		662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366AE2C87325300C79B60 /* FitlyTabView.swift */; };
 		662366B12C87327300C79B60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366B02C87327300C79B60 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,7 @@
 /* Begin PBXFileReference section */
 		613F16B12C88806000D554D5 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		613F16B32C8880C900D554D5 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		613F16B52C88982200D554D5 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		61B9C78A2C86EF45008CD847 /* Fitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B9C78D2C86EF45008CD847 /* FitlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyApp.swift; sourceTree = "<group>"; };
 		61B9C78F2C86EF45008CD847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,8 +57,9 @@
 		61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITests.swift; sourceTree = "<group>"; };
 		61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		61B9C7B72C873431008CD847 /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
-		6623669F2C872AF900C79B60 /* FitlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyModel.swift; sourceTree = "<group>"; };
-		662366A12C872B0A00C79B60 /* FitlyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyViewModel.swift; sourceTree = "<group>"; };
+		61C64B592C88F2C2000E41B5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		61C64B642C88F53F000E41B5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		61C64B662C88F556000E41B5 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		662366AE2C87325300C79B60 /* FitlyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyTabView.swift; sourceTree = "<group>"; };
 		662366B02C87327300C79B60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +92,10 @@
 		613F16B02C88802B00D554D5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				662366AE2C87325300C79B60 /* FitlyTabView.swift */,
 				613F16B12C88806000D554D5 /* CircleProgressView.swift */,
 				613F16B32C8880C900D554D5 /* ActivityCard.swift */,
+				613F16B52C88982200D554D5 /* WorkoutCard.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -117,9 +123,8 @@
 		61B9C78C2C86EF45008CD847 /* Fitly */ = {
 			isa = PBXGroup;
 			children = (
-				6623669D2C872AA400C79B60 /* View */,
-				6623669C2C872A9D00C79B60 /* ViewModel */,
-				6623669B2C872A9300C79B60 /* Model */,
+				61C64B5C2C88F399000E41B5 /* HistoricData */,
+				61C64B5B2C88F313000E41B5 /* Home */,
 				61B9C78D2C86EF45008CD847 /* FitlyApp.swift */,
 				61B9C78F2C86EF45008CD847 /* ContentView.swift */,
 				61B9C7912C86EF47008CD847 /* Assets.xcassets */,
@@ -153,10 +158,53 @@
 			path = FitlyUITests;
 			sourceTree = "<group>";
 		};
+		61C64B5B2C88F313000E41B5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6623669B2C872A9300C79B60 /* Model */,
+				6623669D2C872AA400C79B60 /* View */,
+				6623669C2C872A9D00C79B60 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		61C64B5C2C88F399000E41B5 /* HistoricData */ = {
+			isa = PBXGroup;
+			children = (
+				61C64B5F2C88F3BF000E41B5 /* ViewModel */,
+				61C64B5E2C88F3B9000E41B5 /* Model */,
+				61C64B5D2C88F3B4000E41B5 /* View */,
+			);
+			path = HistoricData;
+			sourceTree = "<group>";
+		};
+		61C64B5D2C88F3B4000E41B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61B9C7B72C873431008CD847 /* HistoricDataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61C64B5E2C88F3B9000E41B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61C64B5F2C88F3BF000E41B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6623669B2C872A9300C79B60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6623669F2C872AF900C79B60 /* FitlyModel.swift */,
+				61C64B642C88F53F000E41B5 /* Activity.swift */,
+				61C64B662C88F556000E41B5 /* Workout.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,7 +212,7 @@
 		6623669C2C872A9D00C79B60 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				662366A12C872B0A00C79B60 /* FitlyViewModel.swift */,
+				61C64B592C88F2C2000E41B5 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,20 +220,10 @@
 		6623669D2C872AA400C79B60 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				662366B02C87327300C79B60 /* HomeView.swift */,
 				613F16B02C88802B00D554D5 /* Module */,
-				662366AE2C87325300C79B60 /* FitlyTabView.swift */,
-				662366A72C872DAE00C79B60 /* Screen */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		662366A72C872DAE00C79B60 /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-				662366B02C87327300C79B60 /* HomeView.swift */,
-				61B9C7B72C873431008CD847 /* HistoricDataView.swift */,
-			);
-			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,14 +357,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				61B9C7B82C873432008CD847 /* HistoricDataView.swift in Sources */,
+				61C64B5A2C88F2C2000E41B5 /* HomeViewModel.swift in Sources */,
 				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
 				613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */,
 				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
+				61C64B652C88F53F000E41B5 /* Activity.swift in Sources */,
 				662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */,
 				662366B12C87327300C79B60 /* HomeView.swift in Sources */,
 				613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */,
-				662366A02C872AF900C79B60 /* FitlyModel.swift in Sources */,
-				662366A22C872B0A00C79B60 /* FitlyViewModel.swift in Sources */,
+				613F16B62C88982200D554D5 /* WorkoutCard.swift in Sources */,
+				61C64B672C88F556000E41B5 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
