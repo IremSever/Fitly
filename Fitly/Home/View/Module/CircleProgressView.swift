@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct CircleProgressView: View {
     @Binding var progress: Int
     var goal: Int
@@ -31,5 +30,5 @@ struct CircleProgressView: View {
 }
 
 #Preview {
-    CircleProgressView(progress: .constant(100), goal: 200, color: .red)
+    CircleProgressView(progress: .constant(1500), goal: 2700, color: .green)
 }

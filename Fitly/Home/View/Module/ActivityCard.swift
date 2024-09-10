@@ -36,6 +36,8 @@ struct ActivityCard: View {
             }
             .padding()
         }
+        .frame(maxWidth: .infinity)
+        .shadow(radius: 5)
     }
 }
 
