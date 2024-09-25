@@ -4,12 +4,32 @@
 //
 //  Created by İrem Sever on 8.09.2024.
 //
-
 import SwiftUI
-
 struct RecipeView: View {
+    @ObservedObject var viewModel = RecipeViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            VStack(alignment: .leading) {
+                Text("Get your recipe")
+                    .font(.subheadline)
+                    .padding()
+    
+            }
+            
+            Categories(viewModel: viewModel)
+    
+           
+            HStack {
+                Text("Popular")
+                    .font(.subheadline)
+            }
+            .padding(.horizontal)
+            
+
+            PopularRecipe(viewModel: viewModel)
+       
+        }
+        
     }
 }
 

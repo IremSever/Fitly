@@ -19,7 +19,7 @@ struct FitlyTabView: View {
     }
     
     var body: some View {
-        TabView(selection: $selectedTab) { 
+        TabView(selection: $selectedTab) {
             HomeView()
                 .tag("Home")
                 .tabItem {
@@ -30,12 +30,6 @@ struct FitlyTabView: View {
                 .tag("TrackerView")
                 .tabItem {
                     Image(systemName: "calendar")
-                }
-            
-            InsightView()
-                .tag("InsightView")
-                .tabItem {
-                    Image(systemName: "chart.line.uptrend.xyaxis")
                 }
             
             RecipeView()
@@ -49,9 +43,6 @@ struct FitlyTabView: View {
                 .tabItem {
                     Image(systemName: "person")
                 }
-            
-            
-            
         }
     }
 }

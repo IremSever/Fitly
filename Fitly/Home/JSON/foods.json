@@ -1,0 +1,235 @@
+{
+    "foods": [
+        {
+            "name": "Apple",
+            "category": "Fruit",
+            "portion_size": "1 medium (182 g)",
+            "description": "A sweet, crunchy fruit that's commonly consumed as a snack or in salads. High in fiber and vitamin C.",
+            "nutrition_per_100g": {
+                "calories": 52,
+                "protein": 0.3,
+                "fat": 0.2,
+                "carbs": 14,
+                "fiber": 2.4,
+                "sugar": 10.4,
+                "sodium": 1,
+                "saturated_fat": 0,
+                "cholesterol": 0
+            },
+            "nutrition_per_serving": {
+                "calories": 95,
+                "protein": 0.5,
+                "fat": 0.3,
+                "carbs": 25,
+                "fiber": 4.4,
+                "sugar": 19,
+                "sodium": 2,
+                "saturated_fat": 0,
+                "cholesterol": 0
+            },
+            "vitamins_minerals": {
+                "vitamin_c": "14% of the Daily Value (DV)",
+                "potassium": "6% of the DV",
+                "vitamin_a": "2% of the DV"
+            }
+        },
+        {
+            "name": "Chicken Breast",
+            "category": "Meat",
+            "portion_size": "1 fillet (120 g)",
+            "description": "A lean source of protein commonly used in fitness diets. High in protein and low in fat, especially when skinless.",
+            "nutrition_per_100g": {
+                "calories": 165,
+                "protein": 31,
+                "fat": 3.6,
+                "carbs": 0,
+                "fiber": 0,
+                "sugar": 0,
+                "sodium": 74,
+                "saturated_fat": 1,
+                "cholesterol": 85
+            },
+            "nutrition_per_serving": {
+                "calories": 198,
+                "protein": 37.2,
+                "fat": 4.3,
+                "carbs": 0,
+                "fiber": 0,
+                "sugar": 0,
+                "sodium": 89,
+                "saturated_fat": 1.3,
+                "cholesterol": 102
+            },
+            "vitamins_minerals": {
+                "iron": "8% of the DV",
+                "vitamin_b6": "25% of the DV",
+                "magnesium": "6% of the DV"
+            }
+        },
+        {
+            "name": "Rice",
+            "category": "Grain",
+            "portion_size": "1 cup (185 g cooked)",
+            "description": "A staple food in many cultures, particularly in Asia. Provides a good source of carbohydrates for energy.",
+            "nutrition_per_100g": {
+                "calories": 130,
+                "protein": 2.7,
+                "fat": 0.3,
+                "carbs": 28.2,
+                "fiber": 0.4,
+                "sugar": 0.1,
+                "sodium": 1,
+                "saturated_fat": 0.1,
+                "cholesterol": 0
+            },
+            "nutrition_per_serving": {
+                "calories": 242,
+                "protein": 5,
+                "fat": 0.4,
+                "carbs": 53.2,
+                "fiber": 0.6,
+                "sugar": 0.2,
+                "sodium": 2,
+                "saturated_fat": 0.1,
+                "cholesterol": 0
+            },
+            "vitamins_minerals": {
+                "folate": "12% of the DV",
+                "manganese": "37% of the DV",
+                "thiamine": "10% of the DV"
+            }
+        },
+        {
+            "name": "Egg",
+            "category": "Protein",
+            "portion_size": "1 large egg (50 g)",
+            "description": "A versatile source of protein used in various dishes. High in essential amino acids and a good source of vitamins.",
+            "nutrition_per_100g": {
+                "calories": 143,
+                "protein": 12.6,
+                "fat": 9.9,
+                "carbs": 1.1,
+                "fiber": 0,
+                "sugar": 1.1,
+                "sodium": 142,
+                "saturated_fat": 3.1,
+                "cholesterol": 373
+            },
+            "nutrition_per_serving": {
+                "calories": 72,
+                "protein": 6.3,
+                "fat": 5.0,
+                "carbs": 0.6,
+                "fiber": 0,
+                "sugar": 0.6,
+                "sodium": 71,
+                "saturated_fat": 1.6,
+                "cholesterol": 186
+            },
+            "vitamins_minerals": {
+                "vitamin_d": "11% of the DV",
+                "vitamin_b12": "10% of the DV",
+                "selenium": "22% of the DV"
+            }
+        },
+        {
+            "name": "Broccoli",
+            "category": "Vegetable",
+            "portion_size": "1 cup (91 g raw)",
+            "description": "A nutrient-rich vegetable high in fiber, vitamins, and antioxidants. Often consumed steamed, raw, or in salads.",
+            "nutrition_per_100g": {
+                "calories": 34,
+                "protein": 2.8,
+                "fat": 0.4,
+                "carbs": 6.6,
+                "fiber": 2.6,
+                "sugar": 1.7,
+                "sodium": 33,
+                "saturated_fat": 0,
+                "cholesterol": 0
+            },
+            "nutrition_per_serving": {
+                "calories": 31,
+                "protein": 2.5,
+                "fat": 0.3,
+                "carbs": 5.9,
+                "fiber": 2.4,
+                "sugar": 1.5,
+                "sodium": 30,
+                "saturated_fat": 0,
+                "cholesterol": 0
+            },
+            "vitamins_minerals": {
+                "vitamin_k": "116% of the DV",
+                "vitamin_c": "135% of the DV",
+                "folate": "14% of the DV"
+            }
+        },
+        {
+            "name": "Almonds",
+            "category": "Nuts",
+            "portion_size": "1 ounce (28 g)",
+            "description": "A popular tree nut known for its high content of healthy fats, fiber, and protein. Commonly eaten as a snack or added to dishes.",
+            "nutrition_per_100g": {
+                "calories": 579,
+                "protein": 21.2,
+                "fat": 49.9,
+                "carbs": 21.6,
+                "fiber": 12.5,
+                "sugar": 4.4,
+                "sodium": 1,
+                "saturated_fat": 3.7,
+                "cholesterol": 0
+            },
+            "nutrition_per_serving": {
+                "calories": 161,
+                "protein": 6.0,
+                "fat": 14.0,
+                "carbs": 5.6,
+                "fiber": 3.5,
+                "sugar": 1.2,
+                "sodium": 0,
+                "saturated_fat": 0.9,
+                "cholesterol": 0
+            },
+            "vitamins_minerals": {
+                "vitamin_e": "37% of the DV",
+                "magnesium": "20% of the DV",
+                "calcium": "8% of the DV"
+            }
+        },
+        {
+            "name": "Avocado",
+            "category": "Fruit",
+            "portion_size": "1 medium (150 g)",
+            "description": "A creamy fruit rich in healthy monounsaturated fats. Commonly used in salads, sandwiches, or spreads like guacamole.",
+            "nutrition_per_100g": {
+                "calories": 160,
+                "protein": 2,
+                "fat": 15,
+                "carbs": 9,
+                "fiber": 7,
+                "sugar": 0.7,
+                "sodium": 7,
+                "saturated_fat": 2.1,
+                "cholesterol": 0
+            },
+            "nutrition_per_serving": {
+                "calories": 240,
+                "protein": 3,
+                "fat": 22.5,
+                "carbs": 13.5,
+                "fiber": 10.5,
+                "sugar": 1.1,
+                "sodium": 10.5,
+                "saturated_fat": 3.15,
+                "cholesterol": 0
+            },
+            "vitamins_minerals": {
+                "potassium": "20% of the DV",
+                "vitamin_k": "26% of the DV",
+                "folate": "20% of the DV"
+            }
+        }
+    ]
+}

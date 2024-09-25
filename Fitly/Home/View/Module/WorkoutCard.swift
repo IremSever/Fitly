@@ -18,8 +18,9 @@ struct WorkoutCard: View {
                 .frame(width: 48, height: 48)
                 .foregroundColor(workout.color)
                 .padding()
-                .background(.gray.opacity(0.1))
+                .background(.white)
                 .cornerRadius(10)
+                .shadow(radius: 4)
             
             VStack(spacing: 16) {
                 HStack {
@@ -27,7 +28,7 @@ struct WorkoutCard: View {
                         .bold()
                     Spacer()
                     Text(workout.duration)
-                        .foregroundColor(.gray)
+                        .foregroundColor(.black)
                 }
                 HStack {
                     Text(workout.date)
@@ -41,10 +42,11 @@ struct WorkoutCard: View {
         }
         .padding()
         .background(Color(uiColor: .systemGray6))
-        .cornerRadius(10)
+        .cornerRadius(5)
     }
+        
 }
 
 #Preview {
-    WorkoutCard(workout: Workout(id: 0, title: "Running", image: "figure.run", duration: "48", date: "Aug 20", calories: "583", color:.red))
+    WorkoutCard(workout: Workout(id: 0, title: "Running", image: "figure.run", duration: "48", date: "Aug 20", calories: "583", color:.fitlyRed))
 }

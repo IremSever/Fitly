@@ -1,0 +1,588 @@
+{
+    "recipe": [
+        {
+            "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5B",
+            "name": "Grilled Chicken Salad with Avocado and Quinoa",
+            "description": "A healthy and balanced meal packed with lean protein, healthy fats, and fiber, perfect for lunch or dinner.",
+            "servings": 2,
+            "prep_time": "15 minutes",
+            "cook_time": "20 minutes",
+            "total_time": "35 minutes",
+            "ingredients": [
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5W",
+                    "name": "Chicken Breast",
+                    "quantity": "2",
+                    "unit": "pieces",
+                    "notes": "Boneless and skinless",
+                    "image": "https://example.com/images/chicken_breast.jpg"
+                },
+                {x
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5Z",
+                    "name": "Olive Oil",
+                    "quantity": "2",
+                    "unit": "tablespoons",
+                    "notes": "For grilling the chicken and dressing",
+                    "image": "https://example.com/images/olive_oil.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5X",
+                    "name": "Salt",
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "notes": "To taste",
+                    "image": "https://example.com/images/salt.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5C",
+                    "name": "Black Pepper",
+                    "quantity": "1/2",
+                    "unit": "teaspoon",
+                    "notes": "To taste",
+                    "image": "https://example.com/images/black_pepper.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5V",
+                    "name": "Quinoa",
+                    "quantity": "1/2",
+                    "unit": "cup",
+                    "notes": "Rinsed",
+                    "image": "https://example.com/images/quinoa.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5N",
+                    "name": "Avocado",
+                    "quantity": "1",
+                    "unit": "whole",
+                    "notes": "Sliced",
+                    "image": "https://example.com/images/avocado.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5M",
+                    "name": "Mixed Greens",
+                    "quantity": "2",
+                    "unit": "cups",
+                    "notes": "Spinach, kale, or arugula",
+                    "image": "https://example.com/images/mixed_greens.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5A",
+                    "name": "Cherry Tomatoes",
+                    "quantity": "1",
+                    "unit": "cup",
+                    "notes": "Halved",
+                    "image": "https://example.com/images/cherry_tomatoes.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5S",
+                    "name": "Cucumber",
+                    "quantity": "1/2",
+                    "unit": "whole",
+                    "notes": "Sliced",
+                    "image": "https://example.com/images/cucumber.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5D",
+                    "name": "Lemon Juice",
+                    "quantity": "2",
+                    "unit": "tablespoons",
+                    "notes": "For dressing",
+                    "image": "https://example.com/images/lemon_juice.jpg"
+                }
+            ],
+            "instructions": [
+                {
+                    "step": 1,
+                    "description": "Preheat a grill or grill pan over medium heat. Season the chicken breasts with olive oil, salt, and black pepper."
+                },
+                {
+                    "step": 2,
+                    "description": "Grill the chicken for 5-7 minutes per side, or until the internal temperature reaches 165°F (75°C). Let the chicken rest for 5 minutes, then slice."
+                },
+                {
+                    "step": 3,
+                    "description": "In a medium pot, bring 1 cup of water to a boil. Add the rinsed quinoa, reduce heat to low, cover, and simmer for 15 minutes until the water is absorbed and the quinoa is fluffy."
+                },
+                {
+                    "step": 4,
+                    "description": "In a large salad bowl, combine the mixed greens, cherry tomatoes, cucumber, and avocado slices."
+                },
+                {
+                    "step": 5,
+                    "description": "Add the cooked quinoa and grilled chicken slices to the salad."
+                },
+                {
+                    "step": 6,
+                    "description": "Drizzle with lemon juice and olive oil, then toss the salad gently."
+                }
+            ],
+            "nutritions": {
+                "calories_per_serving": 450,
+                "protein_per_serving": "35g",
+                "carbohydrates_per_serving": "25g",
+                "fats_per_serving": "22g",
+                "fiber_per_serving": "8g"
+            },
+            "tags": [
+                { "name": "healthy", "category": "dietary" },
+                { "name": "gluten-free", "category": "dietary" },
+                { "name": "high-protein", "category": "health" },
+                { "name": "low-carb", "category": "dietary" },
+                { "name": "quick", "category": "speed" }
+            ],
+            "image": "https://hips.hearstapps.com/hmg-prod/images/grilled-chicken-salad-lead-6628169550105.jpg"
+        },
+        {
+            "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5Q",
+            "name": "Vegan Lentil Soup",
+            "description": "A hearty and nutritious vegan soup filled with lentils, vegetables, and spices.",
+            "servings": 4,
+            "prep_time": "10 minutes",
+            "cook_time": "30 minutes",
+            "total_time": "40 minutes",
+            "ingredients": [
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5R",
+                    "name": "Green Lentils",
+                    "quantity": "1",
+                    "unit": "cup",
+                    "notes": "Rinsed",
+                    "image": "https://example.com/images/lentils.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5T",
+                    "name": "Carrots",
+                    "quantity": "2",
+                    "unit": "whole",
+                    "notes": "Chopped",
+                    "image": "https://example.com/images/carrots.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5Y",
+                    "name": "Celery",
+                    "quantity": "2",
+                    "unit": "stalks",
+                    "notes": "Chopped",
+                    "image": "https://example.com/images/celery.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5U",
+                    "name": "Onion",
+                    "quantity": "1",
+                    "unit": "whole",
+                    "notes": "Chopped",
+                    "image": "https://example.com/images/onion.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5I",
+                    "name": "Garlic",
+                    "quantity": "2",
+                    "unit": "cloves",
+                    "notes": "Minced",
+                    "image": "https://example.com/images/garlic.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5O",
+                    "name": "Vegetable Broth",
+                    "quantity": "4",
+                    "unit": "cups",
+                    "notes": "Low-sodium",
+                    "image": "https://example.com/images/vegetable_broth.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5F",
+                    "name": "Canned Diced Tomatoes",
+                    "quantity": "1",
+                    "unit": "can",
+                    "notes": "15 oz",
+                    "image": "https://example.com/images/canned_diced_tomatoes.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5H",
+                    "name": "Bay Leaf",
+                    "quantity": "1",
+                    "unit": "leaf",
+                    "notes": "For flavor",
+                    "image": "https://example.com/images/bay_leaf.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5J",
+                    "name": "Cumin",
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "notes": "Ground",
+                    "image": "https://example.com/images/cumin.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5P",
+                    "name": "Salt",
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "notes": "To taste",
+                    "image": "https://example.com/images/salt.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5G",
+                    "name": "Black Pepper",
+                    "quantity": "1/2",
+                    "unit": "teaspoon",
+                    "notes": "To taste",
+                    "image": "https://example.com/images/black_pepper.jpg"
+                }
+            ],
+            "instructions": [
+                {
+                    "step": 1,
+                    "description": "In a large pot, heat a splash of oil over medium heat. Add the onion, garlic, carrots, and celery. Sauté for about 5 minutes until softened."
+                },
+                {
+                    "step": 2,
+                    "description": "Add the lentils, vegetable broth, diced tomatoes, bay leaf, cumin, salt, and pepper. Bring to a boil."
+                },
+                {
+                    "step": 3,
+                    "description": "Reduce heat to low, cover, and simmer for 30 minutes, or until the lentils are tender."
+                },
+                {
+                    "step": 4,
+                    "description": "Remove the bay leaf and adjust seasoning if necessary. Serve hot."
+                }
+            ],
+            "nutritions": {
+                "calories_per_serving": 250,
+                "protein_per_serving": "15g",
+                "carbohydrates_per_serving": "40g",
+                "fats_per_serving": "4g",
+                "fiber_per_serving": "10g"
+            },
+            "tags": [
+                { "name": "vegan", "category": "dietary" },
+                { "name": "gluten-free", "category": "dietary" },
+                { "name": "high-fiber", "category": "health" },
+                { "name": "quick", "category": "speed" }
+            ],
+            "image": "https://hips.hearstapps.com/hmg-prod/images/lentil-soup-lead-1651679688.jpg"
+        },
+        {
+            "id": "D3EDF7A2-4B16-4B36-9A2B-8F4D06BC2A5A",
+            "name": "Spaghetti Aglio e Olio",
+            "description": "A simple Italian pasta dish made with garlic, olive oil, and chili flakes.",
+            "servings": 4,
+            "prep_time": "10 minutes",
+            "cook_time": "10 minutes",
+            "total_time": "20 minutes",
+            "ingredients": [
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5E",
+                    "name": "Spaghetti",
+                    "quantity": "400",
+                    "unit": "grams",
+                    "notes": "Dry",
+                    "image": "https://example.com/images/spaghetti.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5D",
+                    "name": "Olive Oil",
+                    "quantity": "1/2",
+                    "unit": "cup",
+                    "notes": "Extra virgin",
+                    "image": "https://example.com/images/olive_oil.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5B",
+                    "name": "Garlic",
+                    "quantity": "6",
+                    "unit": "cloves",
+                    "notes": "Thinly sliced",
+                    "image": "https://example.com/images/garlic.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5C",
+                    "name": "Red Chili Flakes",
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "notes": "To taste",
+                    "image": "https://example.com/images/red_chili_flakes.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5F",
+                    "name": "Parsley",
+                    "quantity": "1/4",
+                    "unit": "cup",
+                    "notes": "Chopped",
+                    "image": "https://example.com/images/parsley.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5G",
+                    "name": "Salt",
+                    "quantity": "To taste",
+                    "unit": "none",
+                    "notes": "",
+                    "image": "https://example.com/images/salt.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5H",
+                    "name": "Black Pepper",
+                    "quantity": "To taste",
+                    "unit": "none",
+                    "notes": "",
+                    "image": "https://example.com/images/black_pepper.jpg"
+                }
+            ],
+            "instructions": [
+                {
+                    "step": 1,
+                    "description": "Cook the spaghetti in salted boiling water according to package instructions until al dente."
+                },
+                {
+                    "step": 2,
+                    "description": "In a large skillet, heat the olive oil over medium heat. Add the sliced garlic and sauté until golden brown."
+                },
+                {
+                    "step": 3,
+                    "description": "Add red chili flakes and sauté for another minute."
+                },
+                {
+                    "step": 4,
+                    "description": "Drain the spaghetti and add it to the skillet. Toss well to coat in the garlic oil."
+                },
+                {
+                    "step": 5,
+                    "description": "Season with salt and black pepper. Garnish with chopped parsley before serving."
+                }
+            ],
+            "nutritions": {
+                "calories_per_serving": 400,
+                "protein_per_serving": "12g",
+                "carbohydrates_per_serving": "62g",
+                "fats_per_serving": "15g",
+                "fiber_per_serving": "3g"
+            },
+            "tags": [
+                { "name": "vegetarian", "category": "dietary" },
+                { "name": "quick", "category": "speed" },
+                { "name": "easy", "category": "convenience" }
+            ],
+            "image": "https://hips.hearstapps.com/hmg-prod/images/spaghetti-aglio-e-olio-lead-1587166005.jpg"
+        },
+        {
+            "id": "D3E1F7A2-4BS6-4B36-9A2B-8F4D06BC2A5X",
+            "name": "Chocolate Chip Cookies",
+            "description": "Classic chocolate chip cookies that are chewy on the inside and crispy on the edges.",
+            "servings": 24,
+            "prep_time": "15 minutes",
+            "cook_time": "10 minutes",
+            "total_time": "25 minutes",
+            "ingredients": [
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5W",
+                    "name": "All-Purpose Flour",
+                    "quantity": "2",
+                    "unit": "cups",
+                    "notes": "Sifted",
+                    "image": "https://example.com/images/flour.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5A",
+                    "name": "Butter",
+                    "quantity": "1",
+                    "unit": "cup",
+                    "notes": "Softened",
+                    "image": "https://example.com/images/butter.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5S",
+                    "name": "Brown Sugar",
+                    "quantity": "1",
+                    "unit": "cup",
+                    "notes": "Packed",
+                    "image": "https://example.com/images/brown_sugar.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5D",
+                    "name": "Granulated Sugar",
+                    "quantity": "1/2",
+                    "unit": "cup",
+                    "notes": "",
+                    "image": "https://example.com/images/granulated_sugar.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5C",
+                    "name": "Eggs",
+                    "quantity": "2",
+                    "unit": "large",
+                    "notes": "",
+                    "image": "https://example.com/images/eggs.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5F",
+                    "name": "Vanilla Extract",
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "notes": "",
+                    "image": "https://example.com/images/vanilla_extract.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5G",
+                    "name": "Baking Soda",
+                    "quantity": "1",
+                    "unit": "teaspoon",
+                    "notes": "",
+                    "image": "https://example.com/images/baking_soda.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5H",
+                    "name": "Salt",
+                    "quantity": "1/2",
+                    "unit": "teaspoon",
+                    "notes": "",
+                    "image": "https://example.com/images/salt.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5J",
+                    "name": "Chocolate Chips",
+                    "quantity": "2",
+                    "unit": "cups",
+                    "notes": "Semi-sweet",
+                    "image": "https://example.com/images/chocolate_chips.jpg"
+                }
+            ],
+            "instructions": [
+                {
+                    "step": 1,
+                    "description": "Preheat the oven to 350°F (175°C). Line a baking sheet with parchment paper."
+                },
+                {
+                    "step": 2,
+                    "description": "In a bowl, cream together the softened butter, brown sugar, and granulated sugar until smooth."
+                },
+                {
+                    "step": 3,
+                    "description": "Beat in the eggs one at a time, then stir in the vanilla extract."
+                },
+                {
+                    "step": 4,
+                    "description": "Combine the flour, baking soda, and salt in a separate bowl. Gradually blend into the creamed mixture."
+                },
+                {
+                    "step": 5,
+                    "description": "Fold in the chocolate chips."
+                },
+                {
+                    "step": 6,
+                    "description": "Drop rounded tablespoons of dough onto the prepared baking sheet. Bake for 10-12 minutes, until edges are golden brown."
+                }
+            ],
+            "nutritions": {
+                "calories_per_serving": 150,
+                "protein_per_serving": "2g",
+                "carbohydrates_per_serving": "22g",
+                "fats_per_serving": "7g",
+                "fiber_per_serving": "1g"
+            },
+            "tags": [
+                { "name": "dessert", "category": "meal type" },
+                { "name": "baking", "category": "cooking method" },
+                { "name": "easy", "category": "convenience" }
+            ],
+            "image": "https://hips.hearstapps.com/hmg-prod/images/chocolate-chip-cookies-lead-1547599827.jpg"
+        },
+        {
+            "id": "D3E1G7A2-4B16-4B36-9A2B-8F4D06BC2A5T",
+            "name": "Caprese Salad",
+            "description": "A fresh and flavorful salad made with mozzarella, tomatoes, and basil, drizzled with balsamic glaze.",
+            "servings": 4,
+            "prep_time": "10 minutes",
+            "cook_time": "0 minutes",
+            "total_time": "10 minutes",
+            "ingredients": [
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5V",
+                    "name": "Fresh Mozzarella",
+                    "quantity": "250",
+                    "unit": "grams",
+                    "notes": "Sliced",
+                    "image": "https://example.com/images/mozzarella.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5A",
+                    "name": "Tomatoes",
+                    "quantity": "4",
+                    "unit": "whole",
+                    "notes": "Sliced",
+                    "image": "https://example.com/images/tomatoes.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5B",
+                    "name": "Fresh Basil",
+                    "quantity": "1/2",
+                    "unit": "cup",
+                    "notes": "Chopped",
+                    "image": "https://example.com/images/basil.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5C",
+                    "name": "Olive Oil",
+                    "quantity": "2",
+                    "unit": "tablespoons",
+                    "notes": "For drizzling",
+                    "image": "https://example.com/images/olive_oil.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5D",
+                    "name": "Balsamic Glaze",
+                    "quantity": "2",
+                    "unit": "tablespoons",
+                    "notes": "For drizzling",
+                    "image": "https://example.com/images/balsamic_glaze.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5E",
+                    "name": "Salt",
+                    "quantity": "To taste",
+                    "unit": "none",
+                    "notes": "",
+                    "image": "https://example.com/images/salt.jpg"
+                },
+                {
+                    "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5F",
+                    "name": "Black Pepper",
+                    "quantity": "To taste",
+                    "unit": "none",
+                    "notes": "",
+                    "image": "https://example.com/images/black_pepper.jpg"
+                }
+            ],
+            "instructions": [
+                {
+                    "step": 1,
+                    "description": "On a serving platter, alternate layers of sliced mozzarella and tomatoes."
+                },
+                {
+                    "step": 2,
+                    "description": "Sprinkle with fresh basil, salt, and black pepper."
+                },
+                {
+                    "step": 3,
+                    "description": "Drizzle with olive oil and balsamic glaze before serving."
+                }
+            ],
+            "nutritions": {
+                "calories_per_serving": 250,
+                "protein_per_serving": "12g",
+                "carbohydrates_per_serving": "6g",
+                "fats_per_serving": "20g",
+                "fiber_per_serving": "0g"
+            },
+            "tags": [
+                { "name": "vegetarian", "category": "dietary" },
+                { "name": "salad", "category": "meal type" },
+                { "name": "fresh", "category": "flavor" }
+            ],
+            "image": "https://hips.hearstapps.com/hmg-prod/images/caprese-salad-lead-1622733100.jpg"
+        }
+    ]
+}
+
+
+

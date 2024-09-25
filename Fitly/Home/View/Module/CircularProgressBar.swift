@@ -24,7 +24,7 @@ struct CircularProgressBar: View {
                 .stroke(style: StrokeStyle(lineWidth: 8, lineCap: .round))
                 .foregroundColor(color)
                 .rotationEffect(Angle(degrees: 270))
-                //.animation(.linear)
+         
         }
         .frame(width: 70, height: 70)
     }

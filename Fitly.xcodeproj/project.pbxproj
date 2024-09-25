@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		610E19D02C8AE1F200C07726 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E19CF2C8AE1F200C07726 /* CircularProgressBar.swift */; };
+		61083F012CA3E9CD00CC81EF /* CategoriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F002CA3E9CD00CC81EF /* CategoriesDetail.swift */; };
 		613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B12C88806000D554D5 /* CircleProgressView.swift */; };
 		613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B32C8880C900D554D5 /* ActivityCard.swift */; };
-		613F16B62C88982200D554D5 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B52C88982200D554D5 /* WorkoutCard.swift */; };
 		614548AE2C8B247B00C852C0 /* MealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548AD2C8B247B00C852C0 /* MealCard.swift */; };
 		614548B02C8CCF8000C852C0 /* NutrientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548AF2C8CCF8000C852C0 /* NutrientCard.swift */; };
 		614548B72C8E279C00C852C0 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548B62C8E279C00C852C0 /* RecipeView.swift */; };
-		614548BC2C8E2C9E00C852C0 /* InsightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548BB2C8E2C9E00C852C0 /* InsightView.swift */; };
 		614548C22C8E2F9500C852C0 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548C12C8E2F9500C852C0 /* TrackerView.swift */; };
 		614548C42C8E39D400C852C0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548C32C8E39D400C852C0 /* AccountView.swift */; };
 		614548C82C8F335700C852C0 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548C72C8F335700C852C0 /* WaveShape.swift */; };
@@ -24,6 +22,19 @@
 		614548D52C8FFBA500C852C0 /* StepProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548D42C8FFBA500C852C0 /* StepProgressView.swift */; };
 		614548DA2C8FFEBF00C852C0 /* WeightProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548D92C8FFEBF00C852C0 /* WeightProgressBar.swift */; };
 		614548DE2C902C1900C852C0 /* BMIProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548DD2C902C1900C852C0 /* BMIProgressBar.swift */; };
+		616C09782C91BD8400B0AB12 /* FitlyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C09772C91BD8400B0AB12 /* FitlyColor.swift */; };
+		619CC5942C9D1C5000119458 /* WeekDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5932C9D1C4900119458 /* WeekDays.swift */; };
+		619CC59A2C9D262C00119458 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5992C9D262C00119458 /* Calorie.swift */; };
+		619CC5A02C9D2C6500119458 /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC59F2C9D2C6500119458 /* Nutrition.swift */; };
+		619CC5A32C9D2DE700119458 /* WaterStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5A22C9D2DE700119458 /* WaterStatistic.swift */; };
+		619CC5A62C9D2F5F00119458 /* CalorieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5A52C9D2F5F00119458 /* CalorieChart.swift */; };
+		619CC5A92C9D574800119458 /* CalorieCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5A82C9D574800119458 /* CalorieCount.swift */; };
+		619CC5AC2C9D920500119458 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5AB2C9D920500119458 /* SearchBar.swift */; };
+		619CC5B02C9D922C00119458 /* PopularRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5AF2C9D922C00119458 /* PopularRecipe.swift */; };
+		619CC5B42C9D928200119458 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5B32C9D928200119458 /* Categories.swift */; };
+		619CC5B62C9DB63C00119458 /* recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 619CC5B52C9DB63C00119458 /* recipe.json */; };
+		619CC5B82C9F53F800119458 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5B72C9F53F800119458 /* RecipeModel.swift */; };
+		619CC5BC2C9F546D00119458 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5BB2C9F546D00119458 /* RecipeViewModel.swift */; };
 		61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78D2C86EF45008CD847 /* FitlyApp.swift */; };
 		61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78F2C86EF45008CD847 /* ContentView.swift */; };
 		61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B9C7912C86EF47008CD847 /* Assets.xcassets */; };
@@ -31,9 +42,11 @@
 		61B9C79F2C86EF48008CD847 /* FitlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C79E2C86EF48008CD847 /* FitlyTests.swift */; };
 		61B9C7A92C86EF48008CD847 /* FitlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */; };
 		61B9C7AB2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */; };
+		61BB118A2C90848700C62893 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB11892C90848700C62893 /* WaterView.swift */; };
 		61C64B5A2C88F2C2000E41B5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C64B592C88F2C2000E41B5 /* HomeViewModel.swift */; };
 		61C64B652C88F53F000E41B5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C64B642C88F53F000E41B5 /* Activity.swift */; };
 		61C64B672C88F556000E41B5 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C64B662C88F556000E41B5 /* Workout.swift */; };
+		61F7D8C52C91D4C9003E3EE1 /* foods.json in Resources */ = {isa = PBXBuildFile; fileRef = 61F7D8C42C91D4C9003E3EE1 /* foods.json */; };
 		662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366AE2C87325300C79B60 /* FitlyTabView.swift */; };
 		662366B12C87327300C79B60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662366B02C87327300C79B60 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -56,14 +69,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		610E19CF2C8AE1F200C07726 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		61083F002CA3E9CD00CC81EF /* CategoriesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetail.swift; sourceTree = "<group>"; };
 		613F16B12C88806000D554D5 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		613F16B32C8880C900D554D5 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
-		613F16B52C88982200D554D5 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		614548AD2C8B247B00C852C0 /* MealCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCard.swift; sourceTree = "<group>"; };
 		614548AF2C8CCF8000C852C0 /* NutrientCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientCard.swift; sourceTree = "<group>"; };
 		614548B62C8E279C00C852C0 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
-		614548BB2C8E2C9E00C852C0 /* InsightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightView.swift; sourceTree = "<group>"; };
 		614548C12C8E2F9500C852C0 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
 		614548C32C8E39D400C852C0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		614548C72C8F335700C852C0 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
@@ -73,6 +84,19 @@
 		614548D42C8FFBA500C852C0 /* StepProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressView.swift; sourceTree = "<group>"; };
 		614548D92C8FFEBF00C852C0 /* WeightProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightProgressBar.swift; sourceTree = "<group>"; };
 		614548DD2C902C1900C852C0 /* BMIProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIProgressBar.swift; sourceTree = "<group>"; };
+		616C09772C91BD8400B0AB12 /* FitlyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyColor.swift; sourceTree = "<group>"; };
+		619CC5932C9D1C4900119458 /* WeekDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDays.swift; sourceTree = "<group>"; };
+		619CC5992C9D262C00119458 /* Calorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calorie.swift; sourceTree = "<group>"; };
+		619CC59F2C9D2C6500119458 /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
+		619CC5A22C9D2DE700119458 /* WaterStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterStatistic.swift; sourceTree = "<group>"; };
+		619CC5A52C9D2F5F00119458 /* CalorieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieChart.swift; sourceTree = "<group>"; };
+		619CC5A82C9D574800119458 /* CalorieCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCount.swift; sourceTree = "<group>"; };
+		619CC5AB2C9D920500119458 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		619CC5AF2C9D922C00119458 /* PopularRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipe.swift; sourceTree = "<group>"; };
+		619CC5B32C9D928200119458 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		619CC5B52C9DB63C00119458 /* recipe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipe.json; sourceTree = "<group>"; };
+		619CC5B72C9F53F800119458 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		619CC5BB2C9F546D00119458 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		61B9C78A2C86EF45008CD847 /* Fitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B9C78D2C86EF45008CD847 /* FitlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyApp.swift; sourceTree = "<group>"; };
 		61B9C78F2C86EF45008CD847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,9 +107,11 @@
 		61B9C7A42C86EF48008CD847 /* FitlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B9C7A82C86EF48008CD847 /* FitlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITests.swift; sourceTree = "<group>"; };
 		61B9C7AA2C86EF48008CD847 /* FitlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61BB11892C90848700C62893 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
 		61C64B592C88F2C2000E41B5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		61C64B642C88F53F000E41B5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		61C64B662C88F556000E41B5 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		61F7D8C42C91D4C9003E3EE1 /* foods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = foods.json; sourceTree = "<group>"; };
 		662366AE2C87325300C79B60 /* FitlyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyTabView.swift; sourceTree = "<group>"; };
 		662366B02C87327300C79B60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,16 +141,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61083EFF2CA3E9B300CC81EF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5B32C9D928200119458 /* Categories.swift */,
+				61083F002CA3E9CD00CC81EF /* CategoriesDetail.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		613F16B02C88802B00D554D5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				619CC5962C9D1CA600119458 /* Calories */,
+				619CC5972C9D1CB500119458 /* Changes */,
+				619CC5952C9D1C9A00119458 /* Meal */,
+				614548C62C8F324C00C852C0 /* Water */,
 				662366AE2C87325300C79B60 /* FitlyTabView.swift */,
-				613F16B12C88806000D554D5 /* CircleProgressView.swift */,
-				613F16B32C8880C900D554D5 /* ActivityCard.swift */,
-				613F16B52C88982200D554D5 /* WorkoutCard.swift */,
-				610E19CF2C8AE1F200C07726 /* CircularProgressBar.swift */,
-				614548AD2C8B247B00C852C0 /* MealCard.swift */,
-				614548AF2C8CCF8000C852C0 /* NutrientCard.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -132,6 +165,7 @@
 		614548B12C8E271800C852C0 /* Recipe */ = {
 			isa = PBXGroup;
 			children = (
+				619CC5B92C9F543E00119458 /* JSON */,
 				614548B52C8E276C00C852C0 /* View */,
 				614548B42C8E275E00C852C0 /* Model */,
 				614548B32C8E275600C852C0 /* ViewModel */,
@@ -152,6 +186,7 @@
 		614548B32C8E275600C852C0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				619CC5BB2C9F546D00119458 /* RecipeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -159,6 +194,7 @@
 		614548B42C8E275E00C852C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				619CC5B72C9F53F800119458 /* RecipeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +202,7 @@
 		614548B52C8E276C00C852C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				619CC5AA2C9D650500119458 /* Modules */,
 				614548B62C8E279C00C852C0 /* RecipeView.swift */,
 			);
 			path = View;
@@ -230,10 +267,15 @@
 		614548C52C8F324300C852C0 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				619CC5A72C9D572E00119458 /* CalorieCount */,
+				619CC5A42C9D2F4D00119458 /* CalorieChart */,
+				619CC5A12C9D2DCE00119458 /* WaterStatistic */,
+				619CC59B2C9D2C2800119458 /* Nutrition */,
+				619CC5982C9D260000119458 /* Calorie */,
+				619CC58E2C9D1BE600119458 /* Days */,
 				614548DC2C902C0900C852C0 /* BMI */,
 				614548D62C8FFE7A00C852C0 /* Weight */,
 				614548CF2C8FF7B900C852C0 /* Step */,
-				614548C62C8F324C00C852C0 /* Water */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -244,6 +286,7 @@
 				614548C72C8F335700C852C0 /* WaveShape.swift */,
 				614548C92C8F33C600C852C0 /* WaterDropShape.swift */,
 				614548CB2C8F33DF00C852C0 /* WaterDropProgressView.swift */,
+				61BB11892C90848700C62893 /* WaterView.swift */,
 			);
 			path = Water;
 			sourceTree = "<group>";
@@ -280,6 +323,105 @@
 			path = BMI;
 			sourceTree = "<group>";
 		};
+		616C09762C91BD7300B0AB12 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				616C09772C91BD8400B0AB12 /* FitlyColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		619CC58E2C9D1BE600119458 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5932C9D1C4900119458 /* WeekDays.swift */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		619CC5952C9D1C9A00119458 /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				614548AF2C8CCF8000C852C0 /* NutrientCard.swift */,
+				614548AD2C8B247B00C852C0 /* MealCard.swift */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		619CC5962C9D1CA600119458 /* Calories */ = {
+			isa = PBXGroup;
+			children = (
+				613F16B12C88806000D554D5 /* CircleProgressView.swift */,
+			);
+			path = Calories;
+			sourceTree = "<group>";
+		};
+		619CC5972C9D1CB500119458 /* Changes */ = {
+			isa = PBXGroup;
+			children = (
+				613F16B32C8880C900D554D5 /* ActivityCard.swift */,
+			);
+			path = Changes;
+			sourceTree = "<group>";
+		};
+		619CC5982C9D260000119458 /* Calorie */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5992C9D262C00119458 /* Calorie.swift */,
+			);
+			path = Calorie;
+			sourceTree = "<group>";
+		};
+		619CC59B2C9D2C2800119458 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				619CC59F2C9D2C6500119458 /* Nutrition.swift */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		619CC5A12C9D2DCE00119458 /* WaterStatistic */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5A22C9D2DE700119458 /* WaterStatistic.swift */,
+			);
+			path = WaterStatistic;
+			sourceTree = "<group>";
+		};
+		619CC5A42C9D2F4D00119458 /* CalorieChart */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5A52C9D2F5F00119458 /* CalorieChart.swift */,
+			);
+			path = CalorieChart;
+			sourceTree = "<group>";
+		};
+		619CC5A72C9D572E00119458 /* CalorieCount */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5A82C9D574800119458 /* CalorieCount.swift */,
+			);
+			path = CalorieCount;
+			sourceTree = "<group>";
+		};
+		619CC5AA2C9D650500119458 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				61083EFF2CA3E9B300CC81EF /* Categories */,
+				619CC5AB2C9D920500119458 /* SearchBar.swift */,
+				619CC5AF2C9D922C00119458 /* PopularRecipe.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		619CC5B92C9F543E00119458 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				619CC5B52C9DB63C00119458 /* recipe.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		61B9C7812C86EF45008CD847 = {
 			isa = PBXGroup;
 			children = (
@@ -303,9 +445,9 @@
 		61B9C78C2C86EF45008CD847 /* Fitly */ = {
 			isa = PBXGroup;
 			children = (
+				616C09762C91BD7300B0AB12 /* Extension */,
 				61C64B5B2C88F313000E41B5 /* Home */,
 				614548BD2C8E2F6200C852C0 /* Tracker */,
-				61C64B5C2C88F399000E41B5 /* Insight */,
 				614548B12C8E271800C852C0 /* Recipe */,
 				614548B22C8E272A00C852C0 /* Account */,
 				61B9C78D2C86EF45008CD847 /* FitlyApp.swift */,
@@ -344,6 +486,7 @@
 		61C64B5B2C88F313000E41B5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				61F7D8BA2C91D3B6003E3EE1 /* JSON */,
 				6623669B2C872A9300C79B60 /* Model */,
 				6623669D2C872AA400C79B60 /* View */,
 				6623669C2C872A9D00C79B60 /* ViewModel */,
@@ -351,36 +494,12 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		61C64B5C2C88F399000E41B5 /* Insight */ = {
+		61F7D8BA2C91D3B6003E3EE1 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				61C64B5F2C88F3BF000E41B5 /* ViewModel */,
-				61C64B5E2C88F3B9000E41B5 /* Model */,
-				61C64B5D2C88F3B4000E41B5 /* View */,
+				61F7D8C42C91D4C9003E3EE1 /* foods.json */,
 			);
-			path = Insight;
-			sourceTree = "<group>";
-		};
-		61C64B5D2C88F3B4000E41B5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				614548BB2C8E2C9E00C852C0 /* InsightView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		61C64B5E2C88F3B9000E41B5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		61C64B5F2C88F3BF000E41B5 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		6623669B2C872A9300C79B60 /* Model */ = {
@@ -513,8 +632,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F7D8C52C91D4C9003E3EE1 /* foods.json in Resources */,
 				61B9C7952C86EF47008CD847 /* Preview Assets.xcassets in Resources */,
 				61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */,
+				619CC5B62C9DB63C00119458 /* recipe.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,30 +660,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619CC5942C9D1C5000119458 /* WeekDays.swift in Sources */,
+				619CC5B82C9F53F800119458 /* RecipeModel.swift in Sources */,
 				614548B02C8CCF8000C852C0 /* NutrientCard.swift in Sources */,
+				619CC5BC2C9F546D00119458 /* RecipeViewModel.swift in Sources */,
 				614548CA2C8F33C600C852C0 /* WaterDropShape.swift in Sources */,
 				614548AE2C8B247B00C852C0 /* MealCard.swift in Sources */,
 				61C64B5A2C88F2C2000E41B5 /* HomeViewModel.swift in Sources */,
+				61BB118A2C90848700C62893 /* WaterView.swift in Sources */,
 				614548C42C8E39D400C852C0 /* AccountView.swift in Sources */,
 				614548C82C8F335700C852C0 /* WaveShape.swift in Sources */,
 				614548D12C8FFB6300C852C0 /* NeedleView.swift in Sources */,
+				619CC5B02C9D922C00119458 /* PopularRecipe.swift in Sources */,
 				614548C22C8E2F9500C852C0 /* TrackerView.swift in Sources */,
 				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
 				613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */,
 				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
 				614548CC2C8F33DF00C852C0 /* WaterDropProgressView.swift in Sources */,
 				61C64B652C88F53F000E41B5 /* Activity.swift in Sources */,
+				616C09782C91BD8400B0AB12 /* FitlyColor.swift in Sources */,
+				619CC5B42C9D928200119458 /* Categories.swift in Sources */,
 				662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */,
+				619CC5AC2C9D920500119458 /* SearchBar.swift in Sources */,
+				619CC5A02C9D2C6500119458 /* Nutrition.swift in Sources */,
+				619CC59A2C9D262C00119458 /* Calorie.swift in Sources */,
 				614548B72C8E279C00C852C0 /* RecipeView.swift in Sources */,
+				61083F012CA3E9CD00CC81EF /* CategoriesDetail.swift in Sources */,
+				619CC5A62C9D2F5F00119458 /* CalorieChart.swift in Sources */,
 				614548D52C8FFBA500C852C0 /* StepProgressView.swift in Sources */,
 				662366B12C87327300C79B60 /* HomeView.swift in Sources */,
 				614548DE2C902C1900C852C0 /* BMIProgressBar.swift in Sources */,
+				619CC5A92C9D574800119458 /* CalorieCount.swift in Sources */,
 				614548DA2C8FFEBF00C852C0 /* WeightProgressBar.swift in Sources */,
 				613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */,
-				613F16B62C88982200D554D5 /* WorkoutCard.swift in Sources */,
-				614548BC2C8E2C9E00C852C0 /* InsightView.swift in Sources */,
+				619CC5A32C9D2DE700119458 /* WaterStatistic.swift in Sources */,
 				61C64B672C88F556000E41B5 /* Workout.swift in Sources */,
-				610E19D02C8AE1F200C07726 /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

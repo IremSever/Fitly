@@ -17,15 +17,16 @@ struct WaterDropProgressView: View {
            
            
             WaterDropShape()
-                .stroke(lineWidth: 8)
+                .stroke(lineWidth: 2)
                 .foregroundColor(.white)
 //                .fill(LinearGradient(gradient: Gradient(colors: [.cyan, .blue]), startPoint: .top, endPoint: .bottom))
                 .frame(width: 85, height: 80)
-                .shadow(radius: 0.5)
+//                .shadow(radius: 0.5)
             
             WaterDropShape()
-                .fill(LinearGradient(gradient: Gradient(colors: [.cyan.opacity(0.6), .blue.opacity(0.6)]), startPoint: .top, endPoint: .bottom))
-                .opacity(0.9)
+                //.foregroundColor(.fitlyBlue)
+                .fill(LinearGradient(gradient: Gradient(colors: [.blue.opacity(0.8), .fitlyBlue.opacity(1)]), startPoint: .top, endPoint: .bottom))
+                .opacity(1)
                 .frame(width: 85, height: 80)
                 .mask(
                     GeometryReader { geometry in
@@ -39,11 +40,11 @@ struct WaterDropProgressView: View {
                     }
                 )
             WaterDropShape()
-                .stroke(lineWidth: 4)
-//                .foregroundColor(.blue)
-                .fill(LinearGradient(gradient: Gradient(colors: [.cyan.opacity(0.6), .blue.opacity(0.6)]), startPoint: .top, endPoint: .bottom))
+                .stroke(lineWidth: 3)
+                .foregroundColor(.gray)
+//                .fill(LinearGradient(gradient: Gradient(colors: [.fitlyBlue.opacity(1), .fitlyBlue.opacity(1)]), startPoint: .top, endPoint: .bottom))
                 .frame(width: 85, height: 80)
-                .shadow(radius: 0.5)
+//                .shadow(radius: 0.5)
         }
     }
 }
