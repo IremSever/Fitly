@@ -3,11 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		61083F012CA3E9CD00CC81EF /* CategoriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F002CA3E9CD00CC81EF /* CategoriesDetail.swift */; };
+		61083F1C2CA4A8F600CC81EF /* meal.json in Resources */ = {isa = PBXBuildFile; fileRef = 61083F1B2CA4A8F600CC81EF /* meal.json */; };
+		61083F202CA4AC9800CC81EF /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F1F2CA4AC9800CC81EF /* MealModel.swift */; };
+		61083F222CA4ACC800CC81EF /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F212CA4ACC800CC81EF /* MealViewModel.swift */; };
+		61083F272CA4AD8A00CC81EF /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F262CA4AD8A00CC81EF /* MealListView.swift */; };
+		61083F2C2CA5498400CC81EF /* MealListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F2B2CA5498400CC81EF /* MealListRow.swift */; };
+		61083F302CA5515400CC81EF /* recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 61083F2F2CA5515400CC81EF /* recipe.json */; };
+		61083F3A2CA57C3800CC81EF /* MealSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F392CA57C3800CC81EF /* MealSearchBar.swift */; };
+		61083F4B2CA5F1AA00CC81EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F4A2CA5F1AA00CC81EF /* OnboardingView.swift */; };
+		61083F4D2CA5F1E800CC81EF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F4C2CA5F1E800CC81EF /* UserData.swift */; };
+		61083F4F2CA5F25400CC81EF /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F4E2CA5F25400CC81EF /* OnboardingViewModel.swift */; };
+		61083F572CA5F52700CC81EF /* AgeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F562CA5F52700CC81EF /* AgeInfo.swift */; };
+		61083F592CA5F53400CC81EF /* NameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F582CA5F53400CC81EF /* NameInfo.swift */; };
+		61083F5B2CA5F63000CC81EF /* GenderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F5A2CA5F63000CC81EF /* GenderInfo.swift */; };
+		61083F5E2CA5F68900CC81EF /* HeightInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F5D2CA5F68900CC81EF /* HeightInfo.swift */; };
+		61083F602CA5F69D00CC81EF /* WeightInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F5F2CA5F69D00CC81EF /* WeightInfo.swift */; };
+		61083F622CA5F73400CC81EF /* GoalWeightInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F612CA5F73400CC81EF /* GoalWeightInfo.swift */; };
+		61083F642CA5F9C100CC81EF /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61083F632CA5F9C100CC81EF /* ReusableButton.swift */; };
 		613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B12C88806000D554D5 /* CircleProgressView.swift */; };
 		613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F16B32C8880C900D554D5 /* ActivityCard.swift */; };
 		614548AE2C8B247B00C852C0 /* MealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614548AD2C8B247B00C852C0 /* MealCard.swift */; };
@@ -32,7 +49,6 @@
 		619CC5AC2C9D920500119458 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5AB2C9D920500119458 /* SearchBar.swift */; };
 		619CC5B02C9D922C00119458 /* PopularRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5AF2C9D922C00119458 /* PopularRecipe.swift */; };
 		619CC5B42C9D928200119458 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5B32C9D928200119458 /* Categories.swift */; };
-		619CC5B62C9DB63C00119458 /* recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 619CC5B52C9DB63C00119458 /* recipe.json */; };
 		619CC5B82C9F53F800119458 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5B72C9F53F800119458 /* RecipeModel.swift */; };
 		619CC5BC2C9F546D00119458 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CC5BB2C9F546D00119458 /* RecipeViewModel.swift */; };
 		61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B9C78D2C86EF45008CD847 /* FitlyApp.swift */; };
@@ -70,6 +86,23 @@
 
 /* Begin PBXFileReference section */
 		61083F002CA3E9CD00CC81EF /* CategoriesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetail.swift; sourceTree = "<group>"; };
+		61083F1B2CA4A8F600CC81EF /* meal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = meal.json; sourceTree = "<group>"; };
+		61083F1F2CA4AC9800CC81EF /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		61083F212CA4ACC800CC81EF /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		61083F262CA4AD8A00CC81EF /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		61083F2B2CA5498400CC81EF /* MealListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListRow.swift; sourceTree = "<group>"; };
+		61083F2F2CA5515400CC81EF /* recipe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipe.json; sourceTree = "<group>"; };
+		61083F392CA57C3800CC81EF /* MealSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSearchBar.swift; sourceTree = "<group>"; };
+		61083F4A2CA5F1AA00CC81EF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		61083F4C2CA5F1E800CC81EF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		61083F4E2CA5F25400CC81EF /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		61083F562CA5F52700CC81EF /* AgeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeInfo.swift; sourceTree = "<group>"; };
+		61083F582CA5F53400CC81EF /* NameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInfo.swift; sourceTree = "<group>"; };
+		61083F5A2CA5F63000CC81EF /* GenderInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderInfo.swift; sourceTree = "<group>"; };
+		61083F5D2CA5F68900CC81EF /* HeightInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightInfo.swift; sourceTree = "<group>"; };
+		61083F5F2CA5F69D00CC81EF /* WeightInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightInfo.swift; sourceTree = "<group>"; };
+		61083F612CA5F73400CC81EF /* GoalWeightInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalWeightInfo.swift; sourceTree = "<group>"; };
+		61083F632CA5F9C100CC81EF /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
 		613F16B12C88806000D554D5 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		613F16B32C8880C900D554D5 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		614548AD2C8B247B00C852C0 /* MealCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCard.swift; sourceTree = "<group>"; };
@@ -94,7 +127,6 @@
 		619CC5AB2C9D920500119458 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		619CC5AF2C9D922C00119458 /* PopularRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipe.swift; sourceTree = "<group>"; };
 		619CC5B32C9D928200119458 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
-		619CC5B52C9DB63C00119458 /* recipe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipe.json; sourceTree = "<group>"; };
 		619CC5B72C9F53F800119458 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		619CC5BB2C9F546D00119458 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		61B9C78A2C86EF45008CD847 /* Fitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +147,10 @@
 		662366AE2C87325300C79B60 /* FitlyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitlyTabView.swift; sourceTree = "<group>"; };
 		662366B02C87327300C79B60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61083F502CA5F2F000CC81EF /* JSON */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JSON; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		61B9C7872C86EF45008CD847 /* Frameworks */ = {
@@ -148,6 +184,120 @@
 				61083F002CA3E9CD00CC81EF /* CategoriesDetail.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		61083F152CA4A85B00CC81EF /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				61083F172CA4A87000CC81EF /* JSON */,
+				61083F1A2CA4A8B700CC81EF /* Model */,
+				61083F192CA4A89B00CC81EF /* ViewModel */,
+				61083F182CA4A87600CC81EF /* View */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		61083F172CA4A87000CC81EF /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				61083F1B2CA4A8F600CC81EF /* meal.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		61083F182CA4A87600CC81EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61083F282CA4AD9D00CC81EF /* Module */,
+				61083F262CA4AD8A00CC81EF /* MealListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61083F192CA4A89B00CC81EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				61083F212CA4ACC800CC81EF /* MealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61083F1A2CA4A8B700CC81EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61083F1F2CA4AC9800CC81EF /* MealModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61083F282CA4AD9D00CC81EF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				61083F2B2CA5498400CC81EF /* MealListRow.swift */,
+				61083F392CA57C3800CC81EF /* MealSearchBar.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		61083F412CA585A700CC81EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6623669C2C872A9D00C79B60 /* ViewModel */,
+				6623669D2C872AA400C79B60 /* View */,
+				61F7D8BA2C91D3B6003E3EE1 /* JSON */,
+				6623669B2C872A9300C79B60 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		61083F422CA587BA00CC81EF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				61083F502CA5F2F000CC81EF /* JSON */,
+				61083F452CA587E900CC81EF /* Model */,
+				61083F442CA587E200CC81EF /* ViewModel */,
+				61083F432CA587DA00CC81EF /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		61083F432CA587DA00CC81EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61083F552CA5F4EA00CC81EF /* Module */,
+				61083F4A2CA5F1AA00CC81EF /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61083F442CA587E200CC81EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				61083F4E2CA5F25400CC81EF /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61083F452CA587E900CC81EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61083F4C2CA5F1E800CC81EF /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61083F552CA5F4EA00CC81EF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				61083F562CA5F52700CC81EF /* AgeInfo.swift */,
+				61083F582CA5F53400CC81EF /* NameInfo.swift */,
+				61083F5A2CA5F63000CC81EF /* GenderInfo.swift */,
+				61083F5D2CA5F68900CC81EF /* HeightInfo.swift */,
+				61083F5F2CA5F69D00CC81EF /* WeightInfo.swift */,
+				61083F612CA5F73400CC81EF /* GoalWeightInfo.swift */,
+				61083F632CA5F9C100CC81EF /* ReusableButton.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		613F16B02C88802B00D554D5 /* Module */ = {
@@ -417,7 +567,7 @@
 		619CC5B92C9F543E00119458 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				619CC5B52C9DB63C00119458 /* recipe.json */,
+				61083F2F2CA5515400CC81EF /* recipe.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -446,6 +596,7 @@
 			isa = PBXGroup;
 			children = (
 				616C09762C91BD7300B0AB12 /* Extension */,
+				61083F422CA587BA00CC81EF /* Onboarding */,
 				61C64B5B2C88F313000E41B5 /* Home */,
 				614548BD2C8E2F6200C852C0 /* Tracker */,
 				614548B12C8E271800C852C0 /* Recipe */,
@@ -486,10 +637,8 @@
 		61C64B5B2C88F313000E41B5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				61F7D8BA2C91D3B6003E3EE1 /* JSON */,
-				6623669B2C872A9300C79B60 /* Model */,
-				6623669D2C872AA400C79B60 /* View */,
-				6623669C2C872A9D00C79B60 /* ViewModel */,
+				61083F412CA585A700CC81EF /* Home */,
+				61083F152CA4A85B00CC81EF /* Meal */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -542,6 +691,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				61083F502CA5F2F000CC81EF /* JSON */,
 			);
 			name = Fitly;
 			productName = Fitly;
@@ -632,10 +784,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61083F1C2CA4A8F600CC81EF /* meal.json in Resources */,
 				61F7D8C52C91D4C9003E3EE1 /* foods.json in Resources */,
 				61B9C7952C86EF47008CD847 /* Preview Assets.xcassets in Resources */,
 				61B9C7922C86EF47008CD847 /* Assets.xcassets in Resources */,
-				619CC5B62C9DB63C00119458 /* recipe.json in Resources */,
+				61083F302CA5515400CC81EF /* recipe.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,13 +813,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61083F3A2CA57C3800CC81EF /* MealSearchBar.swift in Sources */,
 				619CC5942C9D1C5000119458 /* WeekDays.swift in Sources */,
 				619CC5B82C9F53F800119458 /* RecipeModel.swift in Sources */,
 				614548B02C8CCF8000C852C0 /* NutrientCard.swift in Sources */,
+				61083F2C2CA5498400CC81EF /* MealListRow.swift in Sources */,
 				619CC5BC2C9F546D00119458 /* RecipeViewModel.swift in Sources */,
+				61083F642CA5F9C100CC81EF /* ReusableButton.swift in Sources */,
+				61083F622CA5F73400CC81EF /* GoalWeightInfo.swift in Sources */,
 				614548CA2C8F33C600C852C0 /* WaterDropShape.swift in Sources */,
+				61083F5E2CA5F68900CC81EF /* HeightInfo.swift in Sources */,
 				614548AE2C8B247B00C852C0 /* MealCard.swift in Sources */,
 				61C64B5A2C88F2C2000E41B5 /* HomeViewModel.swift in Sources */,
+				61083F592CA5F53400CC81EF /* NameInfo.swift in Sources */,
+				61083F5B2CA5F63000CC81EF /* GenderInfo.swift in Sources */,
+				61083F222CA4ACC800CC81EF /* MealViewModel.swift in Sources */,
 				61BB118A2C90848700C62893 /* WaterView.swift in Sources */,
 				614548C42C8E39D400C852C0 /* AccountView.swift in Sources */,
 				614548C82C8F335700C852C0 /* WaveShape.swift in Sources */,
@@ -676,10 +837,13 @@
 				61B9C7902C86EF45008CD847 /* ContentView.swift in Sources */,
 				613F16B42C8880C900D554D5 /* ActivityCard.swift in Sources */,
 				61B9C78E2C86EF45008CD847 /* FitlyApp.swift in Sources */,
+				61083F4F2CA5F25400CC81EF /* OnboardingViewModel.swift in Sources */,
+				61083F4D2CA5F1E800CC81EF /* UserData.swift in Sources */,
 				614548CC2C8F33DF00C852C0 /* WaterDropProgressView.swift in Sources */,
 				61C64B652C88F53F000E41B5 /* Activity.swift in Sources */,
 				616C09782C91BD8400B0AB12 /* FitlyColor.swift in Sources */,
 				619CC5B42C9D928200119458 /* Categories.swift in Sources */,
+				61083F4B2CA5F1AA00CC81EF /* OnboardingView.swift in Sources */,
 				662366AF2C87325300C79B60 /* FitlyTabView.swift in Sources */,
 				619CC5AC2C9D920500119458 /* SearchBar.swift in Sources */,
 				619CC5A02C9D2C6500119458 /* Nutrition.swift in Sources */,
@@ -687,14 +851,18 @@
 				614548B72C8E279C00C852C0 /* RecipeView.swift in Sources */,
 				61083F012CA3E9CD00CC81EF /* CategoriesDetail.swift in Sources */,
 				619CC5A62C9D2F5F00119458 /* CalorieChart.swift in Sources */,
+				61083F202CA4AC9800CC81EF /* MealModel.swift in Sources */,
+				61083F272CA4AD8A00CC81EF /* MealListView.swift in Sources */,
 				614548D52C8FFBA500C852C0 /* StepProgressView.swift in Sources */,
 				662366B12C87327300C79B60 /* HomeView.swift in Sources */,
 				614548DE2C902C1900C852C0 /* BMIProgressBar.swift in Sources */,
 				619CC5A92C9D574800119458 /* CalorieCount.swift in Sources */,
 				614548DA2C8FFEBF00C852C0 /* WeightProgressBar.swift in Sources */,
 				613F16B22C88806000D554D5 /* CircleProgressView.swift in Sources */,
+				61083F572CA5F52700CC81EF /* AgeInfo.swift in Sources */,
 				619CC5A32C9D2DE700119458 /* WaterStatistic.swift in Sources */,
 				61C64B672C88F556000E41B5 /* Workout.swift in Sources */,
+				61083F602CA5F69D00CC81EF /* WeightInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

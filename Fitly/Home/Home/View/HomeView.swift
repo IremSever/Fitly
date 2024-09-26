@@ -52,22 +52,13 @@ struct HomeView: View {
                                         
                     VStack {
                         TabView {
-                            MealCard(mealName: "Breakfast", calories: "350 calories", color:.fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 62.5, "Fats": 23.6, "Carbs": 45.7, "RDC": 14.0]) {
-                                
-                            }
+                            MealCard(mealName: "Breakfast", calories: "350 calories", color:.fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 62.5, "Fats": 23.6, "Carbs": 45.7, "RDC": 14.0])
+                        
+                            MealCard(mealName: "Lunch", calories: "500 calories", color: .fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 45.0, "Fats": 30.0, "Carbs": 60.0, "RDC": 22.0])
                             
+                            MealCard(mealName: "Dinner", calories: "600 calories", color: .fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 50.0, "Fats": 35.0, "Carbs": 70.0, "RDC": 25.0])
                             
-                            MealCard(mealName: "Lunch", calories: "500 calories", color: .fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 45.0, "Fats": 30.0, "Carbs": 60.0, "RDC": 22.0]) {
-                                
-                            }
-                            
-                            MealCard(mealName: "Dinner", calories: "600 calories", color: .fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 50.0, "Fats": 35.0, "Carbs": 70.0, "RDC": 25.0]) {
-                                
-                            }
-                            
-                            MealCard(mealName: "Snacks", calories: "200 calories", color:.fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 10.0, "Fats": 15.0, "Carbs": 20.0, "RDC": 8.0]) {
-                                
-                            }
+                            MealCard(mealName: "Snacks", calories: "200 calories", color:.fitlyGreen.opacity(0.4), nutritionalData: ["Proteins": 10.0, "Fats": 15.0, "Carbs": 20.0, "RDC": 8.0])
                         }
                         
                         .frame(height: 209)

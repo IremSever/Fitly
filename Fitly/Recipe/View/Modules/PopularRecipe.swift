@@ -68,6 +68,7 @@ struct PopularRecipe: View {
                                     .clipShape(RoundedRectangle(cornerRadius: 25))
                             }
                             Text(recipe.name)
+                                .bold()
                                 .font(.subheadline)
                                 .frame(width: 220, height: 40)
                                 .foregroundColor(.black)

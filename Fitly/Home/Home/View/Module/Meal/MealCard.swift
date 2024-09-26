@@ -4,7 +4,6 @@
 //
 //  Created by İrem Sever on 6.09.2024.
 //
-
 import SwiftUI
 
 struct MealCard: View {
@@ -12,7 +11,6 @@ struct MealCard: View {
     var calories: String
     var color: Color
     var nutritionalData: [String: Float]
-    var addFoodAction: () -> Void
 
     var mealImageName: String {
         switch mealName {
@@ -64,7 +62,6 @@ struct MealCard: View {
 
             VStack(alignment: .leading) {
                 HStack {
-                
                     Image(mealImageName)
                         .resizable()
                         .frame(width: 30, height: 30)
@@ -84,7 +81,8 @@ struct MealCard: View {
 
                     Spacer()
 
-                    Button(action: addFoodAction) {
+                    // NavigationLink to MealListView
+                    NavigationLink(destination: MealListView()) {
                         Image("plus")
                             .resizable()
                             .frame(width: 25, height: 25)
@@ -137,7 +135,6 @@ struct MealCard: View {
         .frame(height: 180)
     }
 }
-
 #Preview {
-    MealCard(mealName: "Dinner", calories: "500kcal", color: .yellow.opacity(0.2), nutritionalData: ["Proteins": 62.5, "Fats": 36.7, "Carbs": 28.9, "RDC": 12.5], addFoodAction: {})
+    MealCard(mealName: "Dinner", calories: "500kcal", color: .yellow.opacity(0.2), nutritionalData: ["Proteins": 62.5, "Fats": 36.7, "Carbs": 28.9, "RDC": 12.5])
 }

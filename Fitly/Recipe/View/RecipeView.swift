@@ -10,13 +10,20 @@ struct RecipeView: View {
     var body: some View {
         VStack(alignment: .leading) {
             VStack(alignment: .leading) {
-                Text("Get your recipe")
+                Text("Find your delicious recipe easly!")
                     .font(.subheadline)
                     .padding()
     
             }
+            SearchBar(viewModel: viewModel)
             
+            HStack {
+                Text("Categories")
+                    .font(.subheadline)
+            }
+            .padding(.horizontal)
             Categories(viewModel: viewModel)
+                .padding(.horizontal)
     
            
             HStack {

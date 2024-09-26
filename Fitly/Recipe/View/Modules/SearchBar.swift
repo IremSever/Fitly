@@ -16,11 +16,15 @@ struct SearchBar: View {
             TextField("", text: $searchText)
                 .padding(10)
                 .font(.caption)
-                .background(Color.fitlyDarkGray.opacity(0.7))
+                .background(Color.fitlyWhite.opacity(0.7))
                 .cornerRadius(10)
-            Image(systemName: "magnifyingglass")
-                .foregroundColor(.fitlyWhite)
-            
+            HStack {
+                Spacer()
+                Image(systemName: "magnifyingglass")
+                    .foregroundColor(.fitlyDarkGray)
+                    .padding()
+                
+            }
            
         }
         .padding()

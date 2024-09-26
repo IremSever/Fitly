@@ -1,9 +1,11 @@
 //
-//  CategoriesDetail.swift
+//  CategoriesDetail 3.swift
 //  Fitly
 //
 //  Created by İrem Sever on 25.09.2024.
 //
+
+
 import SwiftUI
 
 struct CategoriesDetail: View {
@@ -25,21 +27,21 @@ struct CategoriesDetail: View {
                                 }
                             }) {
                                 Text(tag)
-                                    .frame(width: 80, height: 30)
+                                    .frame(width: 100, height: 50)  // Eşit genişlik ve yükseklik
                                     .padding()
                                     .font(.caption)
-                                    .background(currentTag == tag ? Color.fitlyBlue.opacity(0.7) : Color.fitlyWhite.opacity(0.7))
-                                    .foregroundColor(currentTag == tag ? Color.fitlyDarkGray.opacity(1) : Color.fitlyDarkGray.opacity(0.5))
+                                    .background(currentTag == tag ? Color.fitlyOrange.opacity(0.7) : Color.fitlyWhite.opacity(0.7))
+                                    .foregroundColor(currentTag == tag ? Color.fitlyDarkGray.opacity(0.7) : Color.fitlyDarkGray.opacity(0.3))
                                     .cornerRadius(40)
                             }
-                            .id(tag)
+                            .id(tag)  // Seçili kategoriyi ortalamak için gerekli
                         }
                     }
                     .onAppear {
                         if let selectedTag = selectedTag {
                             currentTag = selectedTag
                             withAnimation {
-                                proxy.scrollTo(selectedTag, anchor: .center)
+                                proxy.scrollTo(selectedTag, anchor: .center)  // Seçili tag'i ortala
                             }
                         }
                     }
@@ -61,6 +63,7 @@ struct CategoriesDetail: View {
             }
             .listStyle(PlainListStyle())
         }
+        .navigationTitle("Categories")
     }
 
     private func uniqueTags() -> [String] {

@@ -1,6 +1,5 @@
-
 {
-    "recipe": [
+    "meal": [
         {
             "id": "D3E1F7A2-4B16-4B36-9A2B-8F4D06BC2A5B",
             "name": "Grilled Chicken Salad with Avocado and Quinoa",
@@ -584,7 +583,6 @@
         }
     ]
 }
-
 
 
 

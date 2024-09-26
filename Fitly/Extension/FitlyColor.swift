@@ -16,5 +16,7 @@ extension Color {
     static let fitlyRed = Color(red: 255/255, green: 161/255, blue: 161/255, opacity: 1)
     static let fitlyDarkGray = Color(red: 95/255, green: 95/255, blue: 95/255, opacity: 1)
     static let fitlyWhite = Color(red: 247/255, green: 247/255, blue: 247/255, opacity: 1)
+    static let fitlyTabGray = Color(red: 240/255, green: 240/255, blue: 240/255, opacity: 1)
    
 }
+

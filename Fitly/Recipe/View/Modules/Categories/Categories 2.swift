@@ -1,9 +1,11 @@
 //
-//  Categories.swift
+//  Categories 2.swift
 //  Fitly
 //
-//  Created by İrem Sever on 20.09.2024.
+//  Created by İrem Sever on 25.09.2024.
 //
+
+
 import SwiftUI
 
 struct Categories: View {
@@ -18,19 +20,19 @@ struct Categories: View {
                         ForEach(uniqueTags(), id: \.self) { tag in
                             NavigationLink(destination: CategoriesDetail(viewModel: viewModel, selectedTag: tag)) {
                                 Text(tag)
-                                    .frame(width: 80, height: 30)
+                                    .frame(width: 100, height: 50)  // Eşit genişlik ve yükseklik
                                     .padding()
                                     .background(selectedTag == tag ? Color.fitlyGreen : Color.fitlyYellow.opacity(0.7))
                                     .foregroundColor(.black)
                                     .cornerRadius(80)
-                                    .font(.caption)
-                                    .bold()
+                                    .font(.subheadline)
                             }
                             .buttonStyle(PlainButtonStyle())
                         }
                     }
                     .padding()
                 }
+                .navigationTitle("Categories")
             }
         }
     }
