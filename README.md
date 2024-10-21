@@ -1,5 +1,4 @@
-# Fitly
-Fitly: Your Personal Fitness Companion
+# Fitly: Your Personal Fitness Companion
 
 Fitly is your all-in-one solution for managing your daily fitness goals. The app takes your age, height, and weight to calculate a personalized daily calorie requirement, helping you stay on track with your fitness journey. With Fitly, you can log your meals, track water intake, monitor your workouts, and gain insights into your daily activity. It’s designed to be a user-friendly and intuitive platform for all your health and fitness needs.
 
@@ -27,6 +26,7 @@ Get detailed reports on your nutrition, hydration, and activity levels over time
 <img src="https://github.com/user-attachments/assets/7f88c746-2b8e-4cef-8e38-ca047c1bcb85" alt="fitly-height" width="250"/>
 <img src="https://github.com/user-attachments/assets/29e8c1a0-2d32-40a6-ab53-c9e26cecf35d" alt="fitly-home" width="250"/>
 <img src="https://github.com/user-attachments/assets/8f8d41eb-52e5-4740-9fb9-7decb708dbbb" alt="fitly-detail" width="250"/>
+<img src="https://github.com/user-attachments/assets/8fa0f823-55c7-4d12-be58-39c0d38ccfa4" alt="fitly-search" width="250"/>
 <img src="https://github.com/user-attachments/assets/85ff7863-306d-4536-aff0-deb2f3a7ba1b" alt="fitly-insight" width="250"/>
 <img src="https://github.com/user-attachments/assets/38ba8f04-66c4-4c4f-a0ec-d3fddaff40c8" alt="fitly-insight2" width="250"/>
 
